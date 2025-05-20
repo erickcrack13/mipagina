@@ -1,0 +1,195 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0A0A0A;
+    color: #fff;
+}
+
+/* Encabezado con degradado moderno */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #ff007f, #ff8c00);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #fffa65;
+}
+
+/* Banner con efectos */
+.banner {
+    text-align: center;
+    padding: 30px;
+}
+
+.banner img {
+    width: 80%;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.4s ease-in-out;
+}
+
+.banner img:hover {
+    transform: scale(1.05);
+}
+
+/* Sección sobre el creador */
+.sobre-mi {
+    text-align: center;
+    padding: 50px;
+    background-color: #1a1a1a;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.perfil img {
+    width: 180px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.texto {
+    text-align: left;
+    color: #fff;
+}
+
+.texto h3 {
+    color: #fffa65;
+    font-size: 1.8em;
+}
+
+.texto p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Tarjetas de servicios */
+.servicios {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #ff007f, #ff8c00);
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: #fffa65;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1.1em;
+}
+
+/* Formulario de contacto */
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto input, .contacto textarea {
+    width: 350px;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #222;
+    color: #fff;
+    font-size: 1em;
+}
+
+button {
+    background-color: #fffa65;
+    border: none;
+    padding: 12px 20px;
+    color: #0A0A0A;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff8c00;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fffa65;
+    font-size: 1.2em;
+}
